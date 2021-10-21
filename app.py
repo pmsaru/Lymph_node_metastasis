@@ -18,7 +18,7 @@ def predict():
     st.write('predicted Class: {} '.format(pred_class) )
     st.write('Predicted Probability:{:.3} '.format(float(probs[pred_idx])))
 def load_image(img):
-    im = Image.open(img)
+    im = Image.open(img).convert('RGB')
     image = np.array(im)
     return image
 
