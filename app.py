@@ -7,8 +7,8 @@ from fastai.vision import *
 import torch
 
 st.title("Histopathological Image Classification with PyTorch")
-st.header("MSI-MSS prediction Example")
-st.text("Upload a histopathological images for classifying as MSI or no-MSS")
+st.header("Lymph node Metastasis prediction Example")
+st.text("Upload a histopathological images for classifying as Metastasis or Non-Metastasis")
 
 def predict():
     # load the pre trained model
