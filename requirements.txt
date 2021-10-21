@@ -1,0 +1,5 @@
+numpy 
+streamlit 
+fastai 
+torch 
+Pillow 
